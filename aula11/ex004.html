@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Qual a sua nacionalidade?</h1>
+    <p>Vamos a primeira pergunta...</p>
+    Onde você nasceu: <input type="text" id="txtn">
+    <input type="button" value="Buscar" onclick="nascionalidade()">
+    <div id="res">
+    </div>
+    <script>
+        var n = document.querySelector('input#txtn')
+        function nascionalidade() {
+            var nasc = document.querySelector('input#txtn')
+            var n = String(nasc.value)
+            var r = document.getElementById('res')
+            r.innerHTML = `Seu pais de origem é ${n}`
+                if (n == 'Brasil') {
+                    r.innerHTML += '<br>Você é Brasileiro'
+                } else {
+                    if (n == 'Estados Unidos') {
+                        r.innerHTML += '<br>Você é Americano'
+                    } else {
+                        if (n == 'Alemanha') {
+                            r.innerHTML += '<br>Você é Alemão'
+                        } else {
+                            if (n == 'França') {
+                                r.innerHTML += '<br>Você é Frances'
+                            } else {
+                                if (n == 'Itália') {
+                                    r.innerHTML += '<br>Você é Italiano'
+                                } else {
+                                    if (n == 'Inglaterra') {
+                                        r.innerHTML += '<br>Você é Inglês'
+                                    } else {
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+        }
+    </script>
+
+    
+</body>
+</html>

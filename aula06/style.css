@@ -1,0 +1,17 @@
+
+body{
+    background-color: blanchedalmond;
+    color: rgb(159, 107, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: rgb(159, 107, 207);
+    color: white;
+    width: 300px; 
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(159, 107, 207, 0.671);
+
+
+}
