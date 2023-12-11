@@ -8,9 +8,9 @@ num.sort()
 console.log(num)
 console.log(`O vetor tem ${num.length} posições.`)
 console.log(`o primeiro valor do vetor é ${num[0]}`)
-var pos = num.indexOf(9) /* o num.indexOf() serve para localizar a posição ou o indice que está o valor digitado entre parenteses () .*/ 
+var pos = num.indexOf(9) /* o num.indexOf() serve para localizar a posição ou o indice que está o valor digitado entre parenteses () .*/
 if (pos == -1 ) {
     console.log('O valor não foi encontrado')
 } else {
     console.log (`O valor procurado está na posição ${pos}`)
-}
+} 
