@@ -31,9 +31,9 @@ for (let contador = 0; contador < listadeteclas.length; contador++) {
     }
 
     tecla.onkeyup = function (evento) {
-        if (evento.code === 'Space'|| evento.code === 'Enter') {
+    
             tecla.classList.remove('ativa')
-        }
+        
     }
 
 } 
